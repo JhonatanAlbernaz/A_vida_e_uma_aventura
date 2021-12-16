@@ -2,6 +2,10 @@
     height: 722px;
 }
 
+.height-507 {
+    height: 507px;
+}
+
 .background-image-primeira-section {
     background-image: url(https://images01.nicepage.com/0d/67/0d67519895d75e8877309f035cda8c21.jpeg);
     background-position: center;
@@ -102,8 +106,9 @@
 
 .box-sizing-border-box {
     box-sizing: border-box;
-    border: 13px solid transparent;
-    margin-left: -40px;
+    border: 23px solid transparent;
+    margin-left: -61px;
+    margin-top: -10px;
 }
 
 .background-image-segunda-section {
@@ -125,6 +130,44 @@
     background-position: center;
     background-size: cover;
     min-height: 155px;
+}
+
+.div-height-359px {
+    height: 359px;
+    width: 1114px;
+    margin: 62px auto 0 26px;
+    display: flex;
+}
+
+.padding-left-right-60px {
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.padding-left-right-60px h2 {
+    font-size: 2.25rem;
+    margin: 35px 98px 0 0;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: Raleway,sans-serif;
+}
+
+.padding-left-right-60px p {
+    margin: 20px 98px 35px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div-height-380px {
+    height: 380px;
+    transform-origin: center top 0;
+    width: 6px;
+    margin: -370px auto 75px 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #2c4776;
 }
 
 
@@ -210,6 +253,48 @@
         height: 1825px;
     }
 
+    .div-height-359px {
+        height: 359px;
+        width: 265px;
+        margin: 155px auto 0 26px;
+        display: flex;
+    }
+
+    .padding-left-right-60px h2 {
+        font-size: 2rem;
+        margin: 35px -25px 0 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: Raleway,sans-serif;
+    }
+
+    .padding-left-right-60px {
+        padding-left: 35px;
+        padding-right: 60px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .padding-left-right-60px p {
+        margin: 20px 0px 35px 0;
+        font-family: 'Open Sans',sans-serif;
+    }
+
+    .div-height-380px {
+        height: 565px;
+        transform-origin: center top 0;
+        width: 6px;
+        margin: -465px auto 75px 20px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #2c4776;
+    }
+
+    .height-507 {
+        height: 680px;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -276,6 +361,40 @@
 
     .height-722px {
         height: 1825px;
+    }
+
+    .div-height-359px {
+        height: 359px;
+        width: 325px;
+        margin: 80px auto 0 26px;
+        display: flex;
+    }
+
+    .padding-left-right-60px h2 {
+        font-size: 2rem;
+        margin: 35px 5px 0 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: Raleway,sans-serif;
+    }
+
+    .padding-left-right-60px p {
+        margin: 20px 0px 35px 0;
+        font-family: 'Open Sans',sans-serif;
+    }
+
+    .div-height-380px {
+        height: 455px;
+        transform-origin: center top 0;
+        width: 6px;
+        margin: -410px auto 75px 20px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #2c4776;
+    }
+
+    .height-507 {
+        height: 560px;
     }
 
 }
@@ -346,6 +465,40 @@
         height: 1825px;
     }
 
+    .div-height-359px {
+        height: 359px;
+        width: 365px;
+        margin: 80px auto 0 26px;
+        display: flex;
+    }
+
+    .padding-left-right-60px h2 {
+        font-size: 2rem;
+        margin: 35px 36px 0 0;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: Raleway,sans-serif;
+    }
+
+    .padding-left-right-60px p {
+        margin: 20px 0px 35px 0;
+        font-family: 'Open Sans',sans-serif;
+    }
+
+    .div-height-380px {
+        height: 435px;
+        transform-origin: center top 0;
+        width: 6px;
+        margin: -410px auto 75px 20px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #2c4776;
+    }
+
+    .height-507 {
+        height: 545px;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -386,6 +539,13 @@
         height: 1350px;
     }
 
+    .div-height-359px {
+        height: 359px;
+        width: 700px;
+        margin: 62px auto 0 26px;
+        display: flex;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -424,6 +584,14 @@
         box-sizing: border-box;
         border: 13px solid transparent;
         margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .div-height-359px {
+        height: 359px;
+        width: 940px;
+        margin: 62px auto 0 26px;
+        display: flex;
     }
 
 }
