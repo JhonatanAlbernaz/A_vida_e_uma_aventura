@@ -6,6 +6,10 @@
     height: 507px;
 }
 
+.height-775 {
+    height: 775px;
+}
+
 .background-image-primeira-section {
     background-image: url(https://images01.nicepage.com/0d/67/0d67519895d75e8877309f035cda8c21.jpeg);
     background-position: center;
@@ -170,7 +174,40 @@
     border-color: #2c4776;
 }
 
+.div-height-393px {
+    width: 390px;
+    min-height: 412px;
+    background-image: none;
+    margin: 70px auto 0 0;
+}
 
+.padding-left-right-20px {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-left-right-20px img {
+    width: 678px;
+    height: 448px;
+    margin: -585px auto 0 417px;
+    object-fit: cover;
+    display: block;
+}
+
+.font-style-italic {
+    font-style: italic !important;
+    margin: 190px -331px 0 16px !important;
+}
+
+.imagem-quarta-section {
+    width: 340px !important;
+    height: 376px !important;
+    position: absolute;
+    margin-left: 705px !important;
+    margin-top: -90px !important;
+    object-fit: cover;
+    display: block;
+}
 
 /* Responsivo */
 
