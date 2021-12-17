@@ -14,6 +14,17 @@
     height: 590px;
 }
 
+.height-120 {
+    height: 120px;
+    background-color: #2c4776;
+}
+
+.height-98 {
+    height: 98px;
+    color: #ffffff;
+    background-color: #333333;
+}
+
 .background-image-primeira-section {
     background-image: url(https://images01.nicepage.com/0d/67/0d67519895d75e8877309f035cda8c21.jpeg);
     background-position: center;
@@ -288,6 +299,97 @@
     color: white !important;
 }
 
+.div-icones {
+    height: 32px;
+    min-height: 16px;
+    width: 168px;
+    min-width: 94px;
+    white-space: nowrap;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+
+.icone-facebook {
+    background-color: rgb(59, 89, 152) !important;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 32px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.icone-facebook:hover {
+    color: #ffffff;
+}
+
+.icone-twitter {
+    background-color: rgb(85, 172, 238) !important;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 32px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.icone-twitter:hover {
+    color: #ffffff;
+}
+
+.icone-instagram {
+    background-color: rgb(197, 54, 164) !important;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 32px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.icone-instagram:hover {
+    color: #ffffff;
+}
+
+.icone-linkedin {
+    background-color: rgb(0, 122, 185) !important;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 32px;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+
+.icone-linkedin:hover {
+    color: #ffffff;
+}
+
+.div-padding-1em {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.div-padding-1em a {
+    text-decoration: underline;
+    color: #a3e1f1;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.div-padding-1em a:hover {
+    color: gray;
+    text-decoration: none !important;
+}
+
+.div-padding-1em p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: all .5s;
+}
+
 
 
 /* Responsivo */
@@ -508,6 +610,13 @@
         text-decoration: none !important;
     }
 
+    .div-padding-1em {
+        text-align: center;
+        padding: 1em;
+        font-size: 0.5em;
+        margin-top: 15px;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -703,6 +812,13 @@
         margin-top: 40px;
         margin-left: 65px;
         text-decoration: none !important;
+    }
+
+    .div-padding-1em {
+        text-align: center;
+        padding: 1em;
+        font-size: 0.7em;
+        margin-top: 15px;
     }
 
 }
