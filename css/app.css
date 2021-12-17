@@ -10,6 +10,10 @@
     height: 810px;
 }
 
+.height-590 {
+    height: 590px;
+}
+
 .background-image-primeira-section {
     background-image: url(https://images01.nicepage.com/0d/67/0d67519895d75e8877309f035cda8c21.jpeg);
     background-position: center;
@@ -218,6 +222,72 @@
     border-color: #2c4776;
 }
 
+.background-image-quinta-section {
+    background-image: url(https://images01.nicepage.com/73/98/7398bfcaa52604d14224836fbbf5f296.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.div-widht-874px {
+    width: 874px;
+    min-height: 420px;
+    margin: 85px auto;
+    background-color: transparent !important;
+    opacity: 1;
+    border-color: #2c4776;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+}
+
+.div-justify-content-center {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.div-justify-content-center h2 {
+    margin: 40px 20px 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: Raleway,sans-serif;
+}
+
+.div-justify-content-center p {
+    margin: 20px 215px 0;
+}
+
+.botao-download-quinta-section {
+    display: block;
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #58bf87, #f1c50e , #b4975a);
+    background-size: 200%;
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    font-family: 'Zen Old Mincho', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 11px !important;
+    margin-top: 55px;
+    margin-left: 305px;
+    text-decoration: none !important;
+}
+
+.botao-download-quinta-section:hover {
+    background-position: right;
+    color: white !important;
+}
+
 
 
 /* Responsivo */
@@ -390,6 +460,54 @@
         height: 1420px;
     }
 
+    .div-widht-874px {
+        width: 270px;
+        min-height: 420px;
+        margin: 85px auto;
+        background-color: transparent !important;
+        opacity: 1;
+        border-color: #2c4776;
+        border-width: 2px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+    }
+
+    .div-justify-content-center h2 {
+        margin: 40px 20px 0;
+        font-size: 1.7rem;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: Raleway,sans-serif;
+    }
+
+    .div-justify-content-center p {
+        margin: 20px 25px 0;
+    }
+
+    .botao-download-quinta-section {
+        display: block;
+        width: 60%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #58bf87, #f1c50e , #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 40px;
+        margin-left: 50px;
+        text-decoration: none !important;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -537,6 +655,54 @@
 
     .height-775 {
         height: 1290px;
+    }
+
+    .div-widht-874px {
+        width: 325px;
+        min-height: 420px;
+        margin: 85px auto;
+        background-color: transparent !important;
+        opacity: 1;
+        border-color: #2c4776;
+        border-width: 2px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+    }
+
+    .div-justify-content-center h2 {
+        margin: 40px 20px 0;
+        font-size: 1.9rem;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: Raleway,sans-serif;
+    }
+
+    .div-justify-content-center p {
+        margin: 20px 25px 0;
+    }
+
+    .botao-download-quinta-section {
+        display: block;
+        width: 60%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #58bf87, #f1c50e , #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 40px;
+        margin-left: 65px;
+        text-decoration: none !important;
     }
 
 }
@@ -688,6 +854,54 @@
         height: 1250px;
     }
 
+    .div-widht-874px {
+        width: 375px;
+        min-height: 420px;
+        margin: 85px auto;
+        background-color: transparent !important;
+        opacity: 1;
+        border-color: #2c4776;
+        border-width: 2px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+    }
+
+    .div-justify-content-center h2 {
+        margin: 40px 20px 0;
+        font-size: 2.15rem;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: Raleway,sans-serif;
+    }
+
+    .div-justify-content-center p {
+        margin: 20px 25px 0;
+    }
+
+    .botao-download-quinta-section {
+        display: block;
+        width: 60%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #58bf87, #f1c50e , #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        margin-left: 75px;
+        text-decoration: none !important;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -771,7 +985,47 @@
     }
 
     .height-775 {
-        height: 660px;
+        height: 690px;
+    }
+
+    .div-widht-874px {
+        width: 690px;
+        min-height: 420px;
+        margin: 85px auto;
+        background-color: transparent !important;
+        opacity: 1;
+        border-color: #2c4776;
+        border-width: 2px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+    }
+
+    .div-justify-content-center p {
+        margin: 20px 115px 0;
+    }
+
+    .botao-download-quinta-section {
+        display: block;
+        width: 25%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #58bf87, #f1c50e , #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        margin-left: 260px;
+        text-decoration: none !important;
     }
 
 }
